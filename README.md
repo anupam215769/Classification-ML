@@ -10,6 +10,10 @@ Unlike regression, the output variable of Classification is a category, not a va
 
 ### Support Vector Machine (SVM) [Code](https://github.com/anupam215769/Classification-ML/blob/main/Support%20Vector%20Machine%20(SVM)/support_vector_machine.ipynb) OR <a href="https://colab.research.google.com/github/anupam215769/Classification-ML/blob/main/Support%20Vector%20Machine%20(SVM)/support_vector_machine.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
+### Kernel SVM [Code](https://github.com/anupam215769/Classification-ML/blob/main/Kernel%20SVM/kernel_svm.ipynb) OR <a href="https://colab.research.google.com/github/anupam215769/Classification-ML/blob/main/Kernel%20SVM/kernel_svm.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+
+
+
 ## Confusion Matrix
 
 Confusion Matrix is a tool to determine the performance of classifier. It contains information about actual and predicted classifications.
@@ -60,6 +64,44 @@ On the basis of the categories, Logistic Regression can be classified into three
 - **Multinomial:** In multinomial Logistic regression, there can be 3 or more possible unordered types of the dependent variable, such as "cat", "dogs", or "sheep"
 
 - **Ordinal:** In ordinal Logistic regression, there can be 3 or more possible ordered types of dependent variables, such as "low", "Medium", or "High".
+
+
+## K-Nearest Neighbors (K-NN)
+
+K-Nearest Neighbour is one of the simplest Machine Learning algorithms based on Supervised Learning technique.
+K-NN algorithm assumes the similarity between the new case/data and available cases and put the new case into the category that is most similar to the available categories.
+
+K-NN algorithm stores all the available data and classifies a new data point based on the similarity. This means when new data appears then it can be easily classified into a well suite category by using K- NN algorithm.
+
+By calculating the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean%20distance,being%20called%20the%20Pythagorean%20distance.) we got the nearest neighbors, as three nearest neighbors in category A and two nearest neighbors in category B. Consider the below image:
+
+![dist](https://i.imgur.com/PAwubP6.png)
+
+As we can see the 3 nearest neighbors are from category A, hence this new data point must belong to category A.
+
+![dist](https://i.imgur.com/RsGWKK7.png)
+
+
+## Support Vector Machine (SVM)
+
+Support Vector Machine or SVM is one of the most popular Supervised Learning algorithms, which is used for Classification as well as Regression problems. However, primarily, it is used for Classification problems in Machine Learning.
+
+The goal of the SVM algorithm is to create the best line or decision boundary that can segregate n-dimensional space into classes so that we can easily put the new data point in the correct category in the future. This best decision boundary is called a hyperplane.
+
+SVM chooses the extreme points/vectors that help in creating the hyperplane. These extreme cases are called as support vectors, and hence algorithm is termed as Support Vector Machine. Consider the below diagram in which there are two different categories that are classified using a decision boundary or hyperplane:
+
+![svm](https://i.imgur.com/6zcQfzn.png)
+
+#### Types of SVM
+
+**SVM can be of two types:**
+
+- **Linear SVM:** Linear SVM is used for linearly separable data, which means if a dataset can be classified into two classes by using a single straight line, then such data is termed as linearly separable data, and classifier is used called as Linear SVM classifier.
+
+- **Non-linear SVM:** Non-Linear SVM is used for non-linearly separated data, which means if a dataset cannot be classified by using a straight line, then such data is termed as non-linear data and classifier used is called as Non-linear SVM classifier.
+
+
+## Kernel SVM
 
 
 
