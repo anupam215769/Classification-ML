@@ -6,6 +6,10 @@ Unlike regression, the output variable of Classification is a category, not a va
 
 ### Logistic Regression Regression [Code](https://github.com/anupam215769/Classification-ML/blob/main/Logistic%20Regression/logistic_regression.ipynb) OR <a href="https://colab.research.google.com/github/anupam215769/Classification-ML/blob/main/Logistic%20Regression/logistic_regression.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
+### K-Nearest Neighbors (K-NN) [Code](https://github.com/anupam215769/Classification-ML/blob/main/K-Nearest%20Neighbors%20(K-NN)/k_nearest_neighbors.ipynb) OR <a href="https://colab.research.google.com/github/anupam215769/Classification-ML/blob/main/Logistic%20Regression/logistic_regression.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+
+### Support Vector Machine (SVM) [Code](https://github.com/anupam215769/Classification-ML/blob/main/Support%20Vector%20Machine%20(SVM)/support_vector_machine.ipynb) OR <a href="https://colab.research.google.com/github/anupam215769/Classification-ML/blob/main/Support%20Vector%20Machine%20(SVM)/support_vector_machine.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+
 ## Confusion Matrix
 
 Confusion Matrix is a tool to determine the performance of classifier. It contains information about actual and predicted classifications.
