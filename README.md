@@ -4,6 +4,8 @@ The Classification algorithm is a [Supervised Learning](https://en.wikipedia.org
 
 Unlike regression, the output variable of Classification is a category, not a value, such as "Green or Blue", "fruit or animal", etc. Since the Classification algorithm is a Supervised learning technique, hence it takes labeled input data, which means it contains input with the corresponding output.
 
+### Logistic Regression Regression [Code](https://github.com/anupam215769/Classification-ML/blob/main/Logistic%20Regression/logistic_regression.ipynb) OR <a href="https://colab.research.google.com/github/anupam215769/Classification-ML/blob/main/Logistic%20Regression/logistic_regression.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+
 ## Confusion Matrix
 
 Confusion Matrix is a tool to determine the performance of classifier. It contains information about actual and predicted classifications.
