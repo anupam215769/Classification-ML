@@ -203,14 +203,19 @@ Results achieved on the given dataset ( accuracy may vary depending upon the dat
 
 ### [Data Preprocessing](https://github.com/anupam215769/Data-Preprocessing-ML)
 
+### [Regression](https://github.com/anupam215769/Regression-ML)
+
+### [Clustering](https://github.com/anupam215769/Clustering-ML)
+
+
 ## Credit
 
 **Coded By**
 
 [Anupam Verma](https://github.com/anupam215769)
 
-<a href="https://github.com/anupam215769/Regression-ML/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=anupam215769/Regression-ML" />
+<a href="https://github.com/anupam215769/Classification-ML/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=anupam215769/Classification-ML" />
 </a>
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anupam-verma-383855223/)
