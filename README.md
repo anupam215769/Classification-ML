@@ -103,5 +103,38 @@ SVM chooses the extreme points/vectors that help in creating the hyperplane. The
 
 ## Kernel SVM
 
+SVM algorithms use a set of mathematical functions that are defined as the kernel. The function of kernel is to take data as input and transform it into the required form. Different SVM algorithms use different types of kernel functions. These functions can be different types. For example **linear, nonlinear, polynomial, radial basis function (RBF), and sigmoid.**
 
+Introduce Kernel functions for sequence data, graphs, text, images, as well as vectors. The most used type of kernel function is **RBF**. Because it has localized and finite response along the entire x-axis.
+The kernel functions return the inner product between two points in a suitable feature space. Thus by defining a notion of similarity, with little computational cost even in very high-dimensional spaces.
+
+![kernel](https://i.imgur.com/7I5qjOQ_d.webp?maxwidth=1520&fidelity=grand)
+
+![kernel](https://i.imgur.com/NGEWfGC_d.webp?maxwidth=1520&fidelity=grand)
+
+![kernel](https://i.imgur.com/8JblI4o_d.webp?maxwidth=1520&fidelity=grand)
+
+
+## Naive Bayes
+
+Naïve Bayes algorithm is a supervised learning algorithm, which is based on Bayes theorem and used for solving classification problems.
+It is mainly used in text classification that includes a high-dimensional training dataset.
+Naïve Bayes Classifier is one of the simple and most effective Classification algorithms which helps in building the fast machine learning models that can make quick predictions.
+**It is a probabilistic classifier, which means it predicts on the basis of the probability of an object.**
+
+The Naïve Bayes algorithm is comprised of two words Naïve and Bayes, Which can be described as:
+
+- **Naïve:** It is called Naïve because it assumes that the occurrence of a certain feature is independent of the occurrence of other features. Such as if the fruit is identified on the bases of color, shape, and taste, then red, spherical, and sweet fruit is recognized as an apple. Hence each feature individually contributes to identify that it is an apple without depending on each other.
+- 
+- **Bayes:** It is called Bayes because it depends on the principle of [Bayes' Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)
+
+#### The formula for Bayes' theorem is given as:
+
+![bayes](https://static.javatpoint.com/tutorial/machine-learning/images/naive-bayes-classifier-algorithm.png)
+
+Where,
+
+- **P(A|B) is Posterior probability:** Probability of hypothesis A on the observed event B.
+
+- **P(B|A) is Likelihood probability:** Probability of the evidence given that the probability of a hypothesis is true.
 
