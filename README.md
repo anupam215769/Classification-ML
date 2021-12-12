@@ -12,30 +12,14 @@ Unlike regression, the output variable of Classification is a category, not a va
 
 ### Kernel SVM [Code](https://github.com/anupam215769/Classification-ML/blob/main/Kernel%20SVM/kernel_svm.ipynb) OR <a href="https://colab.research.google.com/github/anupam215769/Classification-ML/blob/main/Kernel%20SVM/kernel_svm.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
+### Naive Bayes [Code](https://github.com/anupam215769/Classification-ML/blob/main/Naive%20Bayes/naive_bayes.ipynb) OR <a href="https://colab.research.google.com/github/anupam215769/Classification-ML/blob/main/Naive%20Bayes/naive_bayes.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
+### Decision Tree Classification [Code](https://github.com/anupam215769/Classification-ML/blob/main/Decision%20Tree%20Classification/decision_tree_classification.ipynb) OR <a href="https://colab.research.google.com/github/anupam215769/Classification-ML/blob/main/Decision%20Tree%20Classification/decision_tree_classification.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
-## Confusion Matrix
+### Random Forest Classification [Code](https://github.com/anupam215769/Classification-ML/blob/main/Random%20Forest%20Classification/random_forest_classification.ipynb) OR <a href="https://colab.research.google.com/github/anupam215769/Classification-ML/blob/main/Random%20Forest%20Classification/random_forest_classification.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
-Confusion Matrix is a tool to determine the performance of classifier. It contains information about actual and predicted classifications.
+> Don't forget to add Required Data files in colab. Otherwise it won't work.
 
-- **True Positive (TP)** is the number of correct predictions that an example is positive which means positive class correctly identified as positive.
-
-- **False Negative (FN)** is the number of incorrect predictions that an example is negative which means positive class incorrectly identified as negative.
-
-- **False positive (FP)** is the number of incorrect predictions that an example is positive which means negative class incorrectly identified as positive.
-
-- **True Negative (TN)** is the number of correct predictions that an example is negative which means negative class correctly identified as negative.
-
-- **Sensitivity** is also referred as True Positive Rate or Recall. It is measure of positive examples labeled as positive by classifier. It should be higher. 
-
-- **Specificity** is also know as True Negative Rate. It is measure of negative examples labeled as negative by classifier. There should be high specificity.
-
-- **Precision** is ratio of total number of correctly classified positive examples and the total number of predicted positive examples. It shows correctness achieved in positive prediction. 
-
-- **Accuracy** is the proportion of the total number of predictions that are correct.
-
-
-![cm](https://2.bp.blogspot.com/-EvSXDotTOwc/XMfeOGZ-CVI/AAAAAAAAEiE/oePFfvhfOQM11dgRn9FkPxlegCXbgOF4QCLcBGAs/s1600/confusionMatrxiUpdated.jpg)
 
 
 
@@ -110,6 +94,10 @@ The kernel functions return the inner product between two points in a suitable f
 
 ![kernel](https://i.imgur.com/7I5qjOQ_d.webp?maxwidth=1520&fidelity=grand)
 
+**Which Kernel to choose?**
+
+A good way to decide which kernel is the most appropriate is to make several models with different kernels, then evaluate each of their performance, and finally compare the results. Then you choose the kernel with the best results.
+
 ![kernel](https://i.imgur.com/NGEWfGC_d.webp?maxwidth=1520&fidelity=grand)
 
 ![kernel](https://i.imgur.com/8JblI4o_d.webp?maxwidth=1520&fidelity=grand)
@@ -137,4 +125,94 @@ Where,
 - **P(A|B) is Posterior probability:** Probability of hypothesis A on the observed event B.
 
 - **P(B|A) is Likelihood probability:** Probability of the evidence given that the probability of a hypothesis is true.
+
+
+## Decision Tree Classification
+
+Decision Tree is a Supervised learning technique that can be used for both classification and Regression problems, but mostly it is preferred for solving Classification problems. It is a tree-structured classifier, where **internal nodes represent the features of a dataset, branches represent the decision rules** and each **leaf node represents the outcome.**
+
+In a Decision tree, there are two nodes, which are the **Decision Node** and **Leaf Node**. Decision nodes are used to make any decision and have multiple branches, whereas Leaf nodes are the output of those decisions and do not contain any further branches.
+
+![tree](https://i.imgur.com/sBkkuie.png)
+
+![tree](https://i.imgur.com/PSYOLV5.png)
+
+## Random Forest Classification
+
+A rain forest system relies on various decision trees. Every decision tree consists of decision nodes, leaf nodes, and a root node. The leaf node of each tree is the final output produced by that specific decision tree. The selection of the final output follows the majority-voting system.
+
+In this case, the output chosen by the majority of the decision trees becomes the final output of the rain forest system. The diagram below shows a simple random forest classifier.
+
+![random](https://www.section.io/engineering-education/introduction-to-random-forest-in-machine-learning/random-forest-classifier.png)
+
+## Evaluating Classification Models Performance
+
+### Confusion Matrix
+
+Confusion Matrix is a tool to determine the performance of classifier. It contains information about actual and predicted classifications.
+
+- **True Positive (TP)** is the number of correct predictions that an example is positive which means positive class correctly identified as positive.
+
+- **False Negative (FN)** is the number of incorrect predictions that an example is negative which means positive class incorrectly identified as negative.
+
+- **False positive (FP)** is the number of incorrect predictions that an example is positive which means negative class incorrectly identified as positive.
+
+- **True Negative (TN)** is the number of correct predictions that an example is negative which means negative class correctly identified as negative.
+
+- **Sensitivity** is also referred as True Positive Rate or Recall. It is measure of positive examples labeled as positive by classifier. It should be higher. 
+
+- **Specificity** is also know as True Negative Rate. It is measure of negative examples labeled as negative by classifier. There should be high specificity.
+
+- **Precision** is ratio of total number of correctly classified positive examples and the total number of predicted positive examples. It shows correctness achieved in positive prediction. 
+
+- **Accuracy** is the proportion of the total number of predictions that are correct.
+
+
+![cm](https://2.bp.blogspot.com/-EvSXDotTOwc/XMfeOGZ-CVI/AAAAAAAAEiE/oePFfvhfOQM11dgRn9FkPxlegCXbgOF4QCLcBGAs/s1600/confusionMatrxiUpdated.jpg)
+
+
+## Results
+
+Results achieved on the given dataset ( accuracy may vary depending upon the dataset size and various other parameters durning training the model)
+
+| Classification Model         | Accuracy |
+|------------------------------|----------|
+| Logistic Regression          | 0.89     |
+| K-NN                         | 0.93     |
+| SVM                          | 0.90     |
+| Kernel SVM                   | 0.93     |
+| Naive Bayes                  | 0.90     |
+| Decision Tree Classification | 0.91     |
+| Random Forest Classification | 0.91     |
+
+
+
+## Comparison
+
+| Classification Model         | Pros                                                                                         | Cons                                                                                      |
+|------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Logistic Regression          | Probabilistic approach, gives informations about statistical significance of features        | The Logistic Regression Assumptions                                                       |
+| K-NN                         | Simple to understand, fast and efficient                                                     | Need to choose the number of neighbours k                                                 |
+| SVM                          | Performant, not biased by outliers, not sensitive to overfitting                             | Not appropriate for non linear problems, not the best choice for large number of features |
+| Kernel SVM                   | High performance on nonlinear problems, not biased by outliers, not sensitive to overfitting | Not the best choice for large number of features, more complex                            |
+| Naive Bayes                  | Efficient, not biased by outliers, works on nonlinear problems, probabilistic approach       | Based on the assumption that features have same statistical relevance                     |
+| Decision Tree Classification | Interpretability, no need for feature scaling, works on both linear / nonlinear problems     | Poor results on too small datasets, overfitting can easily occur                          |
+| Random Forest Classification | Powerful and accurate, good performance on many problems, including non linear               | No interpretability, overfitting can easily occur, need to choose the number of trees     |
+
+## Related Repositories
+
+### [Data Preprocessing](https://github.com/anupam215769/Data-Preprocessing-ML)
+
+## Credit
+
+**Coded By**
+
+[Anupam Verma](https://github.com/anupam215769)
+
+<a href="https://github.com/anupam215769/Regression-ML/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=anupam215769/Regression-ML" />
+</a>
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anupam-verma-383855223/)
+
 
