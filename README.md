@@ -207,6 +207,10 @@ Results achieved on the given dataset ( accuracy may vary depending upon the dat
 
 ### [Clustering](https://github.com/anupam215769/Clustering-ML)
 
+### [Association Rule Learning](https://github.com/anupam215769/Association-Rule-Learning-ML)
+
+### [Reinforcement Learning](https://github.com/anupam215769/Reinforcement-Learning-ML)
+
 
 ## Credit
 
