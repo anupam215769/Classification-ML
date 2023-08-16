@@ -212,16 +212,4 @@ Results achieved on the given dataset ( accuracy may vary depending upon the dat
 ### [Reinforcement Learning](https://github.com/anupam215769/Reinforcement-Learning-ML)
 
 
-## Credit
-
-**Coded By**
-
-[Anupam Verma](https://github.com/anupam215769)
-
-<a href="https://github.com/anupam215769/Classification-ML/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=anupam215769/Classification-ML" />
-</a>
-
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anupam-verma-383855223/)
-
 
